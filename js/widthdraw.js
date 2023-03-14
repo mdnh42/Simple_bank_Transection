@@ -11,7 +11,7 @@ document.getElementById('btn-widthdraw').addEventListener('click', function(){
     widthdrawPlacement.innerText = currentWidthdrawTotal;
  
     console.log(currentWidthdrawTotal);
-
+    widthdraw.value = '';
     const totalBalance = document.getElementById('total-balance');
     const previousBal = totalBalance.innerText;
     const previousBalInt = parseInt(previousBal);
@@ -24,6 +24,6 @@ document.getElementById('btn-widthdraw').addEventListener('click', function(){
         console.log(previousBalInt);
         totalBalance.innerText = newbalcen;
     }
-   
+    
    
 })
