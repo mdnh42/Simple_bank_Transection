@@ -5,10 +5,13 @@ document.getElementById('btn-submit').addEventListener('click', function()
 
     if(email === 'sontan@baap.com' && password == 'secret')
     {
-        console.log("Healthy");
+        window.location.href = 'bank.html';
     }
     else
     {
         alert("Stupid");
     }
 })
+
+
+
